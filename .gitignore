@@ -1,0 +1,13 @@
+# photos where people can be recognised stay on the group PC only
+02-photos/private/
+
+# build output
+04-designs/source/_build/
+__pycache__/
+*.pyc
+
+# OS and editor files
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
