@@ -17,6 +17,6 @@ python export.py         # JPGs, A4 PDF, countdown 7..1 -> 04-designs/exports/ ;
 
 ## Changing the content
 
-All text is in `build.py`: the header (`header()`), the title and tagline (`title()`), the three facts (`info_items()`), the phone (`cta()`), the prices (`prices()`), and the seal ring (`seal()`). Colours are in the `C` dictionary at the top and match `03-identity/tokens.json`. Each format (`feed`, `a4`, `story`, `endcard`, `countdown`) only sets positions and sizes.
+All text is in `build.py`: the logo row (`logos()`), the opening line (`opener()`), the title and tagline (`title()`), the facts line (`facts()`), the three chapters (`CHAPTERS`), the phone (`cta()`), the prices (`prices()`), and the seal ring (`seal()`). The lighthouse vignette is `lighthouse()` and the scout trail is `trail()` (its points are set per format). Colours are in the `C` dictionary at the top and match `03-identity/tokens.json`. Each format (`feed`, `a4`, `story`, `endcard`, `countdown`) only sets positions and sizes.
 
 For a new event, copy this folder, change the texts and the hero photo in `grade_photos.py`, and keep the anatomy described in `03-identity/README.md`.

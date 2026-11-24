@@ -10,7 +10,8 @@ Channels: the group's Facebook page, parents' WhatsApp groups and WhatsApp statu
 | 25 Nov | Launch: poster in Facebook page + parents' WhatsApp groups + Mahdia community groups; pin it | Feed + story + status |
 | 26–30 Nov | «ماذا ينتظرك في دقاش؟» carousel: the arch, brick, dates, palm weaving, the chott, desert animals (fennec, dromedary) | Feed carousel 1080 × 1350 |
 | 1–4 Dec | Parents' FAQ: supervision, transport, what to bring (warm layers: nights near 7°C, sleeping bag, torch, water bottle) | Feed + story |
-| 5–11 Dec | Countdown every day, 7 → 1, with the number; registration reminder | Countdown story |
+| 2–4 Dec | «من هو عبد المجيد عطية؟» and «من هي بشيرة بن مراد؟» — one post each about the units' namesakes | Feed carousel |
+| 5–11 Dec | Countdown every day, 7 → 1 («بقي على بداية الحكاية»; the last two read 48 and 24 hours) | Countdown story |
 | 12–14 Dec | Live stories from the camp (consent rules above); one short recap each night | Story + reel |
 | 15–20 Dec | After-movie 30–45s + thank-you post + «نلتقي في المخيم القادم» | Reel 9:16 + 16:9 |
 
@@ -33,10 +34,19 @@ Short vertical videos, countdowns and behind-the-scenes clips are what fills cam
 - [ ] Every caption ends with «للتسجيل والاستفسار: 22 882 867».
 - [ ] Before posting any camp photo or video: no recognisable child without consent (see `02-photos/README.md`).
 
-## Caption starters
+## Caption starters (story voice)
 
-- Launch: «مخيم الشتاء ينادي! ثلاثة أيام بين النخيل والنجوم في واحة دقاش، توزر — 12، 13 و14 ديسمبر 2026. فتية وفتيات من 12 إلى 17 سنة. للتسجيل والاستفسار: 22 882 867»
-- Carousel: «ماذا ينتظرك في دقاش؟ طوب الجريد، دقلة النور، خيام من سعف النخيل، وسماء مليئة بالنجوم.»
-- FAQ: «ماذا نحمل؟ ملابس دافئة (الليل قريب من 7 درجات)، كيس نوم، مصباح، قارورة ماء.»
-- Countdown: «بقي على مخيم الشتاء … أيام. هل سجّلت؟»
-- After the camp: «شكرا لكل من شاركنا ليالي الجريد. نلتقي في المخيم القادم.»
+- Launch: «كان يا مكان… في شتاء 2026، كشافة ومرشدات فوج هيبون تركوا بحر المهدية وتبعوا النخيل إلى واحة دقاش. ثلاثة أيام، ثلاثة فصول: نرحل، نكتشف، نعود. 12، 13 و14 ديسمبر — فتية وفتيات من 12 إلى 17 سنة. كونوا جزءًا من الحكاية: 22 882 867»
+- Carousel: «الفصل الثاني: نكتشف. طوب الجريد، دقلة النور، خيام من سعف النخيل، وسماء مليئة بالنجوم.»
+- FAQ: «ماذا نحمل في حقيبة الحكاية؟ ملابس دافئة (الليل قريب من 7 درجات)، كيس نوم، مصباح، قارورة ماء.»
+- Countdown: «بقي على بداية الحكاية … أيام. هل سجّلت؟»
+- After the camp: «وهكذا انتهت حكاية الشتاء… شكرا لكل من كان جزءًا منها. نلتقي في الفصل القادم.»
+
+## Namesake posts (2–4 December)
+
+Two carousels of 4–5 slides, same identity (night ground, the unit badge on the first slide):
+
+- «من هو عبد المجيد عطية؟» — born in Mahdia in 1925, teacher, writer of the novel «المنبت» and of children's stories such as «نجمة البحر الصغير». Why the scouts unit carries his name, and why there is a little starfish by the lighthouse on the poster.
+- «من هي بشيرة بن مراد؟» — 1913–1993, founded the Muslim Union of Tunisian Women in 1936, fought for girls' education. Why the guides carry her name.
+
+Facts and sources: `01-brief/group-profile.md`.

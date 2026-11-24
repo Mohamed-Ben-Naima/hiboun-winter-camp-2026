@@ -4,6 +4,15 @@ The visual identity of **فرقة كشافة ومرشدات فوج هيبون** 
 
 Arabic first, French second. Everything here was made for right-to-left layouts.
 
+## The group
+
+- **الكشافة التونسية** (Les Scouts Tunisiens), founded in 1933–34, a member of the world scout and guide associations (WOSM and WAGGGS), motto «كن مستعدا» (Be prepared). It is coeducational; the guides are an integral but independent section. It runs on volunteer leaders and is known for citizenship through community service.
+- **Structure**: القيادة العامة (national commissariat, led by the national commissioner) → 24 regions (جهات) → about 350 groups (أفواج) → units by age and gender: cubs and brownies 7–12, **scouts (كشافة) and guides (مرشدات) 12–17**, rovers 17–23.
+- **فوج هيبون**, Mahdia region: a group of the Tunisian Scouts in Hiboun, at the north-western entrance of Mahdia. Its two units for 12–17 year-olds are named after two figures, and the camp is for both:
+  - **فرقة عبد المجيد عطية للكشافة** — Abdelmajid Attia (Mahdia 1925 – 2014), writer and teacher from Mahdia, author of the novel «المنبت» (1967) and of children's stories such as «نجمة البحر الصغير».
+  - **مرشدات بشيرة بن مراد** — Bchira Ben Mrad (1913–1993), pioneer of the Tunisian women's movement, who founded the Muslim Union of Tunisian Women in 1936.
+- **Vibe and values to carry in every piece**: adventure with responsibility, friendship between boys and girls of the same group, service, respect for nature and for the places we visit, pride in Mahdia and curiosity about the rest of Tunisia.
+
 ## The idea: «ليالي الجريد» (Djerid nights)
 
 A cold, starry desert night, and a warm place inside it. Every piece is built from five things the Djerid is known for:
@@ -15,6 +24,24 @@ A cold, starry desert night, and a warm place inside it. Every piece is built fr
 | **The date palm** (النخلة) | The Djerid literally means "palm fronds"; Degache's oasis lives from Deglet Nour dates | Moonlit silhouettes at the edges (palm-silhouette, 55%), and the palm with three ember dates inside the seal |
 | **Stars and crescent** | Clear winter nights; days around 17–19°C, nights near 7°C | The star field over the top of the ground, amber sparkle stars, the amber crescent in the header |
 | **The seal** (شارة المخيم) | The scout camp badge | A round ember badge: «مخيم الشتاء» on the top ring, «دقاش · توزر · 2026» on the bottom ring. Goes on every piece, tilted −8° to −10°, overlapping the arch's top corner |
+
+## The story (poster version 2)
+
+Since 24 November 2026 every piece tells the camp as a short tale, like a page of a children's book (a nod to Abdelmajid Attia's stories):
+
+1. **The characters** — the logo row: scouts unit · Fawj Hiboun seal · guides unit (see Logos).
+2. **The opening** — «كان يا مكان… في شتاء 2026» in Aref Ruqaa, amber.
+3. **The departure** — Mahdia: the Cap Afrique lighthouse with its beam, waves in `sea`, a small amber starfish on the shore (for «نجمة البحر الصغير»). Label «المهدية» in Reem Kufi, `sea`.
+4. **The road** — a dotted scout trail from the sea to the oasis, its colour moving from `sea` to `amber`, with trail-sign chevrons (›) showing the way, as scouts mark a track.
+5. **The destination** — the Djerid arch with the camp photo, stamped with the camp seal like a passport stamp. Title «مخيم الشتاء», tagline «من البحر إلى النخيل».
+6. **Three chapters** — الفصل الأول · السبت 12 ديسمبر «نرحل» (from the sea of Mahdia to the oasis of Degache); الفصل الثاني · الأحد 13 «نكتشف» (palms, brick, Djerid stars); الفصل الثالث · الإثنين 14 «نعود» (with stories and new friends). The trail runs through the three dots and ends on the scout trail sign «gone home» (a circle with a dot).
+7. **The invitation** — «للتسجيل · كونوا جزءًا من الحكاية» in the call pill, then the prices.
+
+The countdown reads «بقي على بداية الحكاية». Version 1 (no logos, info row instead of chapters) stays on the canvas page «الإصدار 1» and in git (branch `archive/poster-v1`).
+
+## Logos
+
+Three badges, in this order right to left: **فرقة عبد المجيد عطية للكشافة** · **فوج هيبون** (seal of the Tunisian Scouts, Mahdia region) · **مرشدات بشيرة بن مراد**. The seal is the largest, about 1.2× the height of the unit badges, with a thin cream ring. Never recolour, stretch, crop or redraw them. The scouts badge was drawn on black: on light grounds set it on a night disc. `fawj-hiboun-seal-cream.png` is only a watermark for dark video, never a replacement for the official seal. Files: `assets/Logos/`.
 
 ## Voice and copy
 
@@ -37,7 +64,8 @@ Two themes. **Night** is the campaign look; **Day** is the same system on salt c
 | `ink` | #F6EBD7 | #141833 | Title and text |
 | `ink-muted` | #D9CBB0 | #5A4A3A | Detail lines |
 | `accent-text` | #F2B544 | #8A5209 | Tagline, icons |
-| `amber` (دقلة النور) | #F2B544 | | Member price sticker, moon, sparkles, frieze rule |
+| `amber` (دقلة النور) | #F2B544 | | Member price sticker, moon, sparkles, frieze rule, end of the trail |
+| `sea` (بحر المهدية) | #7FB3E0 | #2C5F8A | Waves, «المهدية», first chapter dot, start of the trail |
 | `ember` (جمر) | #E2552D | | Seal, title shadow, phone disc |
 | `brick` / `brick-light` / `brick-mortar` | #C98E4E / #E9C48A / #7A4A22 | | Only inside the brick motifs |
 | `cream` (ملح الشط) | #F6EBD7 | | Call pill, arch rule |
@@ -57,14 +85,16 @@ Scale on a 1080px-wide poster: title 188 · tagline 56 · org 30 · info value 3
 
 ## Layout: the poster anatomy
 
-Top to bottom, the same order in every format:
+Top to bottom, the same order in every format (version 2):
 
-1. **Header** — kicker «الكشافة التونسية · جهة المهدية», then the org line; the crescent on the opposite side. Official logos (Tunisian Scouts emblem, unit badge) go in this band once the group confirms it may use them.
-2. **The arch** with the hero photo, the seal overlapping its top corner, palm silhouettes behind it at both edges.
-3. **Title** overlapping the bottom of the arch by about a quarter of its height, tagline underneath.
-4. **Info row** — three equal cells between two hairlines: when (calendar icon), where (pin), who (people). Icon in accent-text, value in info-value, detail in info-label.
-5. **Action** — the cream call pill (ember phone disc, «للتسجيل والاستفسار», the number) and the two price stickers (amber filled for members, amber outline for non-members, tilted −6° / +5°).
-6. **Brick frieze** across the full bottom edge with a 3px amber rule on top.
+1. **Logo row** — the three badges, centred (on 16:9, top of the text column).
+2. **Opening** — «كان يا مكان… في شتاء 2026», with one more line on story and print formats.
+3. **The arch** with the hero photo, the camp seal stamped on its top corner, the lighthouse vignette on the reading-start side (right), palm silhouettes at both edges.
+4. **Title** overlapping the bottom of the arch, tagline «من البحر إلى النخيل».
+5. **Facts line** — pin «دقاش، توزر» · people «فتية وفتيات من 12 إلى 17 سنة».
+6. **Three chapters** on the trail (stacked on 16:9).
+7. **Action** — the cream call pill and the two price stickers.
+8. **Brick frieze** across the full bottom edge with a 3px amber rule on top.
 
 | Format | Size | Margins / safe zone |
 | --- | --- | --- |
@@ -93,7 +123,7 @@ Top to bottom, the same order in every format:
 
 ## Campaign rollout and content ideas
 
-The calendar, posting checklist and the Djerid reference sheet live in `05-promotion/campaign-plan.md`.
+The calendar, posting checklist, caption starters and the Djerid reference sheet live in `05-promotion/campaign-plan.md`. Facts about the Tunisian Scouts, the group and the units' namesakes, with sources, are in `01-brief/group-profile.md`.
 
 ## Reusing the identity for the next events
 
@@ -103,9 +133,10 @@ These tokens also serve as the winter seasonal theme of the group's web platform
 
 ## Files in this folder
 
-- `tokens.json` — colours (two themes), type, spacing, radius, shadows. The same file as the online design system.
-- `motifs/` — `brick-tile.svg`, `brick-frieze.svg`, `palm-a.svg`, `palm-b.svg`, `palm-light.svg`, `stars.svg`, `stars-tall.svg`, `grain.png`. Drawn by `04-designs/source/make_motifs.py`.
-- `campaign/` — the seal (1600px) and the title lockup, transparent PNGs for video overlays, stickers and print.
-- `fonts/` — Lalezar, Aref Ruqaa, Alexandria and Reem Kufi with their SIL Open Font Licence files (`OFL-*.txt`): free to use, embed and share, not to sell on their own.
+- `tokens.json` — colours (two themes, now with `sea`), type, spacing, radius, shadows. The same file as the online design system.
+- `logos/` — the Fawj Hiboun seal and the two unit badges (originals + transparent cut-outs). Rules in `logos/README.md`.
+- `motifs/` — `brick-tile.svg`, `brick-frieze.svg`, `palm-a.svg`, `palm-b.svg`, `palm-light.svg`, `stars.svg`, `stars-tall.svg`, `grain.png`. Drawn by `04-designs/source/make_motifs.py`. The lighthouse, starfish and trail are drawn inside `04-designs/source/build.py`.
+- `campaign/` — the camp seal (1600px) and the title lockup, transparent PNGs for video overlays, stickers and print.
+- `fonts/` — Lalezar, Aref Ruqaa, Alexandria and Reem Kufi with their SIL Open Font Licence files (`OFL-*.txt`).
 
-Online: the design system with live component previews is at https://claude.ai/artifact/W88aSm1ZaNbKNpw8j7pDQv and the poster canvas at https://claude.ai/artifact/HXtLywx8sxpdkWcysJ8byD.
+Online: the design system with live component previews is at https://claude.ai/artifact/W88aSm1ZaNbKNpw8j7pDQv and the poster canvas at https://claude.ai/artifact/HXtLywx8sxpdkWcysJ8byD (page «الإصدار 2 — الحكاية»; version 1 on page «الإصدار 1»).

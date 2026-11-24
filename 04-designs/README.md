@@ -1,5 +1,7 @@
 # 04 · Designs
 
+Version 2 — the story (logos, «كان يا مكان», the trail from Mahdia to Degache, three chapters). Version 1 is on branch `archive/poster-v1`.
+
 ## exports/ — ready to post and print
 
 | File | Size | Where it goes |
