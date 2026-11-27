@@ -3,6 +3,7 @@
 
 # build output
 04-designs/source/_build/
+04-designs/teaser/source/_build/
 __pycache__/
 *.pyc
 

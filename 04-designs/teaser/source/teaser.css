@@ -1,0 +1,77 @@
+@font-face{font-family:Lalezar;src:url({F}Lalezar-Regular.ttf)}
+@font-face{font-family:"Aref Ruqaa";src:url({F}ArefRuqaa-Bold.ttf);font-weight:700}
+@font-face{font-family:Alexandria;src:url("{F}Alexandria[wght].ttf");font-weight:100 900}
+@font-face{font-family:"Reem Kufi";src:url("{F}ReemKufi[wght].ttf");font-weight:400 700}
+*{box-sizing:border-box}
+html,body{margin:0;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#0A0E27;font-family:Alexandria,sans-serif;color:#F6EBD7;direction:rtl}
+.big{position:absolute;left:0;right:0;text-align:center;font-family:Lalezar,serif;line-height:1.05;white-space:nowrap;font-weight:400}
+.ruqaa{position:absolute;left:0;right:0;text-align:center;font-family:"Aref Ruqaa",serif;font-weight:700;white-space:nowrap}
+
+/* S1-S2 world */
+#cam{position:absolute;inset:0}
+#world{position:absolute;left:0;top:0;width:1080px;height:5120px;transform-origin:0 0}
+#hkSeal{position:absolute;top:96px;left:478px;width:124px;height:124px;border-radius:50%;box-shadow:0 0 0 5px rgba(246,235,215,.16)}
+#hk1{top:380px;font-size:252px;padding-left:40px}
+#hk2{top:640px;font-size:330px;padding-left:80px}
+#hk3{top:1040px;font-size:66px;color:#F2B544;padding-left:80px}
+#scrim{position:absolute;left:0;right:0;top:0;height:820px;background:linear-gradient(#090D25 0%,rgba(9,13,37,.88) 45%,rgba(9,13,37,0) 100%);opacity:0}
+#jr1{top:222px;font-size:86px;color:#F6EBD7;opacity:0}
+#jr2{top:330px;font-size:200px;opacity:0}
+
+/* S3-S6 logbook */
+#book{position:absolute;inset:0;transform:translateY(1920px)}
+.paper{position:absolute;inset:0;background:
+  linear-gradient(90deg,transparent 976px,rgba(226,85,45,.38) 976px 980px,transparent 980px),
+  repeating-linear-gradient(180deg,transparent 0 70px,rgba(60,80,140,.16) 70px 72px),
+  radial-gradient(130% 90% at 50% 40%,#F4EAD3 0%,#EADAB9 70%,#DCC69C 100%)}
+#bkHead .bkSeal{position:absolute;top:84px;left:486px;width:108px;height:108px;border-radius:50%}
+#bkHead .bkTitle{position:absolute;top:226px;right:96px;font-family:"Reem Kufi",sans-serif;font-weight:700;font-size:40px;color:#7A4A22}
+#bkHead .bkCount{position:absolute;top:212px;left:76px;font-family:Lalezar,serif;font-size:54px;color:#E2552D;border:5px dashed #E2552D;border-radius:20px;padding:0 24px;line-height:1.35;background:rgba(255,250,238,.55);transform:rotate(-4deg)}
+#bkNote{top:1488px;font-size:66px;color:#7A4A22}
+#night{position:absolute;inset:0;background:radial-gradient(120% 80% at 50% 30%,#1E2660 0%,#121637 55%,#0A0D24 100%);opacity:0}
+#pileWrap{position:absolute;inset:0;transform-origin:540px 990px}
+#pile{position:absolute;inset:0}
+.card{position:absolute;left:160px;top:552px;width:760px;height:876px;background:#FBF8F1;padding:34px 34px 0;transform-origin:50% 50%;
+  box-shadow:0 34px 60px rgba(40,20,10,.38),0 6px 14px rgba(40,20,10,.22);opacity:0}
+.card .ph{width:692px;height:692px;overflow:hidden;background:#cbb;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+.card .cap{position:absolute;left:0;right:0;bottom:0;height:150px;display:flex;align-items:center;justify-content:center;font-family:"Aref Ruqaa",serif;font-weight:700;font-size:64px;color:#241F3A;white-space:nowrap}
+.card .tape{position:absolute;top:-30px;left:255px;width:250px;height:64px;transform:rotate(-4deg);
+  clip-path:polygon(0 8%,4% 0,8% 10%,12% 0,100% 0,96% 12%,100% 24%,96% 40%,100% 56%,96% 72%,100% 88%,96% 100%,0 100%,4% 86%,0 70%,4% 54%,0 38%,4% 22%);opacity:0}
+.card .num{position:absolute;top:-38px;right:-38px;width:112px;height:112px;border-radius:50%;background:#E2552D;border:6px solid #F6EBD7;color:#F6EBD7;
+  font-family:Lalezar,serif;font-size:74px;line-height:112px;text-align:center;box-shadow:0 10px 20px rgba(60,20,10,.35);opacity:0}
+#stampWrap{position:absolute;left:220px;top:830px;width:640px;height:300px;transform:rotate(-9deg);opacity:0}
+
+/* S7 */
+#ask,#ans{position:absolute;inset:0;opacity:0}
+#ask1{top:1120px;font-size:256px}
+#ask2{position:absolute;top:1430px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:18px;background:#F6EBD7;color:#141833;
+  font-weight:800;font-size:52px;padding:18px 46px 22px;border-radius:999px;white-space:nowrap;box-shadow:0 14px 30px rgba(0,0,0,.35)}
+#arrow{position:absolute;left:760px;top:1310px;opacity:0}
+#ans1{top:1150px;font-size:190px}
+#ans2{top:1360px;font-size:240px}
+
+/* S8 */
+.endcard{position:absolute;inset:0;opacity:0;overflow:hidden}
+.logos{position:absolute;top:220px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:48px;direction:rtl}
+.logos img{width:auto;display:block}
+.logos .sealimg{border-radius:50%;box-shadow:0 0 0 6px rgba(246,235,215,.18)}
+.e-title{top:500px;font-size:196px}
+.e-date{position:absolute;top:790px;left:0;right:0;text-align:center;font-weight:800;font-size:66px;color:#F2B544}
+.e-soon{top:890px;font-size:92px;color:#F6EBD7}
+.e-who{position:absolute;top:1060px;left:0;right:0;text-align:center;font-weight:600;font-size:42px;color:#D9CBB0}
+.e-org{position:absolute;top:1440px;left:0;right:0;text-align:center;font-family:"Reem Kufi",sans-serif;font-weight:700;font-size:40px;color:#D9CBB0}
+#endR .e-date{color:#F6EBD7}
+.e-place{position:absolute;top:880px;left:0;right:0;text-align:center;font-family:Lalezar,serif;font-size:132px;line-height:1.1;color:#F2B544}
+#endR .e-who{top:1070px}
+.e-price{position:absolute;top:1170px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:26px;font-weight:700;font-size:44px;color:#F6EBD7}
+.e-price b{font-family:Lalezar,serif;font-weight:400;font-size:74px;color:#F2B544;margin-left:8px}
+.e-price i{width:10px;height:10px;border-radius:50%;background:#E2552D;display:block}
+.e-call{position:absolute;top:1330px;left:50%;transform:translateX(-50%);background:#E2552D;color:#F6EBD7;font-weight:800;font-size:58px;
+  padding:16px 50px 22px;border-radius:999px;white-space:nowrap;box-shadow:0 14px 30px rgba(0,0,0,.35)}
+.e-call span{font-family:Alexandria,sans-serif;letter-spacing:2px;margin-right:12px}
+.frieze{position:absolute;bottom:0;left:0;right:0;height:70px;background:url(brick-frieze.svg) repeat-x;background-size:auto 70px;border-top:5px solid #F2B544}
+
+#flash{position:absolute;inset:0;background:#FFF4D6;opacity:0;pointer-events:none}
+#grain{position:absolute;inset:0;background:url(grain.png);background-size:256px;opacity:.085;mix-blend-mode:overlay;pointer-events:none}
+#vig{position:absolute;inset:0;background:radial-gradient(110% 80% at 50% 45%,transparent 58%,rgba(4,5,18,.42) 100%);pointer-events:none}

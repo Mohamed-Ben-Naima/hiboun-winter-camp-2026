@@ -20,11 +20,12 @@ Poster version 2 tells the camp as a story: «كان يا مكان… في شت�
                    graded/ (used in the designs), rejected/, private/ (local only)
 03-identity/       the visual identity: brand book, tokens.json, logos/ (group seal + unit badges),
                    motifs (brick, palms, stars), campaign marks (seal, title lockup), fonts with their licences
-04-designs/        exports/ ready to post and print · source/ scripts that rebuild everything
-05-promotion/      campaign calendar 24 Nov → 14 Dec, posting checklist, Djerid content ideas
+04-designs/        exports/ ready to post and print (teaser/ = the «من البحر… لوين؟» Reels, carousel, quiz story)
+                   source/ scripts that rebuild the posters · teaser/ the teaser's story and scripts
+05-promotion/      campaign calendar 24 Nov → 14 Dec, the teaser plan, posting checklist, Djerid content ideas
 ```
 
-Ready to use now: `04-designs/exports/` (feed post, story, A4 PDF, video card, countdown 7 → 1).
+Ready to use now: `04-designs/exports/` (feed post, story, A4 PDF, video card, countdown 7 → 1) and `04-designs/exports/teaser/` (teaser Reel, reveal Reel, carousel, quiz story).
 
 ## Online versions
 
@@ -33,7 +34,7 @@ Ready to use now: `04-designs/exports/` (feed post, story, A4 PDF, video card, c
 
 ## Versions and rollback
 
-- **Version 2** (current, `main`): logos, story layout.
+- **Version 2** (current, `main`): logos, story layout, and the teaser «من البحر… لوين؟».
 - **Version 1** (first posters, no logos): branch `archive/poster-v1` on GitHub and tag `poster-v1` locally. To look at it: `git switch archive/poster-v1`; to bring one file back: `git restore --source poster-v1 -- <path>`.
 
 ## Still to do
