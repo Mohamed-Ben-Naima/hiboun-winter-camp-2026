@@ -48,7 +48,7 @@ def check(times):
             print(out.name)
         b.close()
 
-def render(variant):
+def render(variant, only=None):
     OUT.mkdir(parents=True, exist_ok=True)
     tmp = BUILD / 'scenes' / variant; tmp.mkdir(parents=True, exist_ok=True)
     files = []
@@ -56,6 +56,8 @@ def render(variant):
         b, pg = open_page(p)
         for name, t0, t1 in SCENES[variant]:
             final = tmp / f'{name}.mp4'; part = tmp / f'{name}.part.mp4'
+            if only and name not in only and final.exists():
+                files.append(final); continue
             ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', str(FPS), '-c:v', 'mjpeg', '-i', '-', *ENC, str(part)],
                                   stdin=subprocess.PIPE)
             f0, f1 = round(t0 * FPS), round(t1 * FPS)
@@ -91,6 +93,8 @@ if __name__ == '__main__':
     if a and a[0] == 'check':
         check(a[1:] or ['0', '0.62', '0.9', '1.6', '2.6', '3.3', '3.9', '4.45', '4.65', '5.4', '7.0', '8.6', '10.4', '11.9', '12.6', '14.6', '15.3',
                         'r11.4', 'r12.0', 'r13.3', 'r15.4'])
+    elif a and a[0] == 'redo':            # python render.py redo teaser s8-end
+        render(a[1], set(a[2:]))
     elif a and a[0] == 'mux':
         for v in a[1:] or ['teaser', 'reveal']: mux(v)
     else:

@@ -36,7 +36,7 @@
     const DUR = R ? 17.0 : 15.5;
     const loopBack = t >= DUR - 0.6;           // the last half second fades back into frame 0
     const ht = loopBack ? 0 : t;              // hook time
-    const wt = t;                             // ambient time (stars, waves)
+    const wt = loopBack ? t - DUR : t;        // ambient time (stars, waves); runs on into the next loop
 
     // ---------------- world (S1-S2)
     const camY = loopBack ? 0 : (t < 2.05 ? 0 : eio(P(t, 2.05, 4.55)) * T.camEnd);
@@ -166,7 +166,7 @@
     // ---------------- S8 end cards
     const end = R ? $('endR') : $('end');
     show($('end'), !R); show($('endR'), R);
-    const eOp = P(t, endStart, endStart + .3) * (1 - P(t, DUR - .5, DUR));
+    const eOp = P(t, endStart, endStart + .3) * (1 - P(t, DUR - .5, DUR - 1 / 30));
     end.style.opacity = eOp;
     if (eOp > 0) {
       const s0 = endStart + .15;
